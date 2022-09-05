@@ -25,7 +25,7 @@ email id'
 stage('Deployment') {
  // Deployment
  script {
- echo "deployment"
+ echo "deployments"
  sh 'cp
 /var/lib/jenkins/workspace/package_1/target/addressbook.war
 /opt/tomcat/webapps/'
