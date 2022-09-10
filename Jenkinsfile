@@ -31,7 +31,7 @@ stage('Deployment') {
 /opt/tomcat/webapps/'
  }
  }
- stage('publish html report') {
+ stage('publish html reports') {
  echo "publishing the html report"
  publishHTML([allowMissing: false, alwaysLinkToLastBuild:
 false, keepAll: false, reportDir: '', reportFiles: 'index.html', reportName:
